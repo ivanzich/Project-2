@@ -1,4 +1,34 @@
 <h1>Logged Out</h1>
-<h2><p>Synth Sound Station</p></h2>
 
-<%= link_to image_tag("soundcloud_connect.png"), soundcloud_connect_path %>
+
+</head>
+<body>
+<div id="wrapper">
+  <div id="menu-wrapper">
+  <div id="menu">
+    <ul>
+      
+      <li><%= link_to image_tag(image_url("soundcloud_connect.png")), soundcloud_connect_path %></li>
+
+      
+   
+    </ul>
+  </div>
+  </div>
+  <!-- end #menu -->
+  <div id="header">
+    <div id="logo">
+      <h1>Synth Sound Station</h1>
+    </div>
+  </div>
+  <!-- end #header -->
+  <div id="about">
+    <h2 class="title">Welcome to the page of synth enthusiasts</h2>
+    <% p image_url('moog.jpg') %>
+    <p><img src=<%= image_url('moog.jpg') %> alt="" width="225" height="225" class="alignleft" />Page Description Page DescriptionPage DescriptionPage DescriptionPage DescriptionPage DescriptionPage Description</p>
+  
+  
+
+</body>
+</html>
+
