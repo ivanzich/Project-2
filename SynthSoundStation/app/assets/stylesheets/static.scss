@@ -1,16 +1,12 @@
 // Place all the styles related to the static controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-/*
-Design by TEMPLATED
-http://templated.co
-Released for free under the Creative Commons Attribution License
-*/
+
 
 body {
   margin: 0;
   padding: 0;
-  background: #590D17;
+  background: #FFFFFF;
   font-family: 'Arvo', serif;
   font-size: 14px;
   color: #E36F00;
@@ -34,13 +30,7 @@ h3 {
   font-size: 1.6em;
 }
 
-p, ul, ol {
-  margin-top: 0;
-  line-height: 180%;
-}
 
-ul, ol {
-}
 
 a {
   text-decoration: none;
@@ -85,7 +75,7 @@ img.aligncenter {
 #logo {
   margin: 0;
   padding: 45px 0px 15px 0px;
-  color: #FFFFFF;
+  color: #E36F00;
 }
 
 #logo h1, #logo p {
@@ -133,18 +123,7 @@ img.aligncenter {
   border: none;
 }
 
-/*#search-text {
-  width: 220px;
-  height: 35px;
-  padding: 0px 10px;
-  border: none;
-  background: #636900;
-  line-height: 35px;
-  letter-spacing: 1px;
-  font-family: 'Abel', sans-serif;
-  font-size: 16px;
-  color: #FFFFFF;
-}*/
+
 
 #search-submit {
   display: none;
@@ -222,26 +201,7 @@ img.aligncenter {
 
 
 
-/* Calendar */
 
-#calendar {
-}
-
-#calendar_wrap {
-  padding: 20px;
-}
-
-#calendar table {
-  width: 100%;
-}
-
-#calendar tbody td {
-  text-align: center;
-}
-
-#calendar #next {
-  text-align: right;
-}
 
 /* Footer */
 

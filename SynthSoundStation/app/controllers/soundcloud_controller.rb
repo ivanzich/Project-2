@@ -12,9 +12,9 @@ class SoundcloudController < ApplicationController
 
   def connected
   	# create client object with app credentials
-  	# client = Soundcloud.new(:client_id => ENV["SOUNDCLOUD_CLIENT_ID"],
-   #                  :client_secret => ENV["SOUNDCLOUD_CLIENT_SECRET"],
-   #                  :redirect_uri => "http://localhost:3000/soundcloud/oauth-callback")
+  	client = Soundcloud.new(:client_id => ENV["SOUNDCLOUD_CLIENT_ID"],
+                    :client_secret => ENV["SOUNDCLOUD_CLIENT_SECRET"],
+                    :redirect_uri => "http://localhost:3000/soundcloud/oauth-callback")
   	
   	# exchange authorization code for access token
   	access_token = client.exchange_token(:code => params[:code])
