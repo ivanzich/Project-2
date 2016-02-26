@@ -9,13 +9,13 @@ Wireframes: https://moqups.com/#!/edit/ivanzich@gmail.com/0fUIwZfa
 
 User Stories
 
-- As a user I need to connect on the website (Soundcloud) so I can login with my username and password
+-As a user I want to connect on the website (Soundcloud) so I can login with my username and password.
 
--As a user I want to listen available soundclips and see if I can come with my musical idea  
+-As a user I want to listen available soundclips and see if I can come with my musical idea. 
 
 -As a user I need to download an audio file so I can do further edits and recordings on the top of the original idea.
 
--As a user I will upload my musical idea in the format of .mp3 .wav or any other supported audio files so other users can have a listen try to come up with their musical parts
+-As a user I will upload my musical idea in the format of .mp3 .wav or any other supported audio files so other users can have a listen try to come up with their musical parts.
 
 
 Icebox: 
