@@ -6,21 +6,25 @@
 body {
   margin: 0;
   padding: 0;
-  background: #FFFFFF;
+  background: e6af4b;
   font-family: 'Arvo', serif;
   font-size: 14px;
-  color: #E36F00;
+  /*background-image: url("Synth wallpaper.jpg");*/
+  background-color: #FFFFFF;
+
 }
 
 h1, h2, h3 {
   margin: 0px;
   padding: 0px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 4px #FF0000;
 }
+
 
 h2 {
   font-size: 2.4em;
@@ -125,15 +129,13 @@ img.aligncenter {
 
 
 
-#search-submit {
-  display: none;
-}
+
 
 /* Menu */
 
 #menu-wrapper {
   height: 50px;
-  background: url(images/menu-wrapper.png) repeat-x left top;
+  background: url(menu_wrapper.jpg) repeat-x left top;
 }
 
 #menu {
@@ -170,19 +172,14 @@ img.aligncenter {
 }
 
 #menu .current_page_item a {
-  background: #770818;
+  background: e6af4b;
 }
 
 #menu a:hover {
-  background: #770818;
+  background: white;
 }
 
-#splash {
-  width: 1000px;
-  height: 260px;
-  margin: 0px auto;
-  background: url(images/img05.jpg) no-repeat left top;
-}
+
 
 /* Page */
 
@@ -199,8 +196,48 @@ img.aligncenter {
   width: 540px;
 }
 
+/* Post */
 
 
+.post {
+  margin-bottom: 30px;
+  padding: 40px 40px;
+  background: rgba(0,0,0,.5);
+}
+
+.post_bottom {
+  margin-bottom: 30px;
+  padding: 200px 80px;
+  background: rgba(0,0,0,.5);
+}
+
+.post .title {
+  padding-bottom: 20px;
+  letter-spacing: -1px;
+  color: #000000 ;
+}
+
+.post .title a {
+  border: none;
+  color: #000000 ;
+}
+
+.post .meta {
+  padding-bottom: 5px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-style: italic;
+}
+
+.post .meta a {
+}
+
+.post .entry {
+  text-align: justify;
+  margin-bottom: 25px;
+  padding: 10px 0px 0px 0px;
+}
 
 
 /* Footer */
@@ -208,7 +245,7 @@ img.aligncenter {
 #footer {
   height: 140px;
   margin: 0px auto;
-  background: #330609
+  background: #435853
 }
 
 #footer p {
@@ -224,13 +261,20 @@ img.aligncenter {
 }
 
 #about {
-  overflow: hidden;
+  overflow: auto;
   width: 820px;
   margin: 30px auto 30px auto;
   padding: 40px 40px;
-  background: rgba(0,0,0,.5);
+  background-color: #C0C0C0
 }
 
+#soundclips {
+  overflow: visible;
+  width: 820px;
+  margin: 30px auto 30px auto;
+  padding: 40px 40px;
+  background-color: #000000
+}
 
 
 #two-column {
@@ -253,6 +297,6 @@ img.aligncenter {
 
 #banner {
   width: 900px;
-  margin: 30px auto;
+  margin: 50px auto;
 }
 

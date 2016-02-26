@@ -1,0 +1,9 @@
+/* line 4, /Users/ivanzich/dev/Project-2 /SynthSoundStation/app/assets/stylesheets/soundcloud.scss */
+iframe:focus {
+  outline: none;
+}
+
+/* line 6, /Users/ivanzich/dev/Project-2 /SynthSoundStation/app/assets/stylesheets/soundcloud.scss */
+iframe[seamless] {
+  display: block;
+}
