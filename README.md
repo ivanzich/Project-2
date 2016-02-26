@@ -1,13 +1,13 @@
 # Project-2
 
-**Website Link: https://protected-hollows-94911.herokuapp.com/
+Website Link: https://protected-hollows-94911.herokuapp.com/
 
-**Trello : https://moqups.com/#!/edit/ivanzich@gmail.com/0fUIwZfa
+Trello : https://moqups.com/#!/edit/ivanzich@gmail.com/0fUIwZfa
 
-**Wireframes: https://moqups.com/#!/edit/ivanzich@gmail.com/0fUIwZfa
+Wireframes: https://moqups.com/#!/edit/ivanzich@gmail.com/0fUIwZfa
 
 
-**User Stories
+User Stories
 
 -As a user I want to connect on the website (Soundcloud) so I can login with my username and password.
 
